@@ -1,0 +1,19 @@
+NAÏVE BAYES ON A REVIEW CLASSIFICATION DATASET
+
+Objective:
+Build a machine learning model to classify customer reviews as positive or negative.
+
+Target:
+Liked = 1 means positive; Liked = 0 means negative.
+
+Workflow:
+1. Load and explore the CSV dataset with Pandas.
+2. Clean review text: lowercase, remove punctuation/numbers, remove stopwords and stem words.
+3. Convert text into numerical features using Bag of Words and TF-IDF.
+4. Split data into 80% training and 20% testing using stratification.
+5. Train BernoulliNB and MultinomialNB models.
+6. Evaluate accuracy, precision, recall, F1 score, confusion matrix and classification report.
+7. Predict sentiment for new customer reviews.
+8. Deploy the application using Streamlit.
+
+The model and vectorizer must be loaded together in the Streamlit app so that new reviews receive exactly the same text preprocessing and feature transformation used during training.

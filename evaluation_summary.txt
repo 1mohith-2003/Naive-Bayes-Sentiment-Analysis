@@ -1,0 +1,48 @@
+
+BernoulliNB + Binary CountVectorizer
+Accuracy: 0.8050
+Precision: 0.7607
+Recall: 0.8900
+F1 Score: 0.8203
+Confusion matrix [ [TN, FP], [FN, TP] ]: [[72, 28], [11, 89]]
+              precision    recall  f1-score   support
+
+    Negative       0.87      0.72      0.79       100
+    Positive       0.76      0.89      0.82       100
+
+    accuracy                           0.81       200
+   macro avg       0.81      0.80      0.80       200
+weighted avg       0.81      0.81      0.80       200
+
+
+MultinomialNB + CountVectorizer
+Accuracy: 0.8000
+Precision: 0.7679
+Recall: 0.8600
+F1 Score: 0.8113
+Confusion matrix [ [TN, FP], [FN, TP] ]: [[74, 26], [14, 86]]
+              precision    recall  f1-score   support
+
+    Negative       0.84      0.74      0.79       100
+    Positive       0.77      0.86      0.81       100
+
+    accuracy                           0.80       200
+   macro avg       0.80      0.80      0.80       200
+weighted avg       0.80      0.80      0.80       200
+
+
+MultinomialNB + TF-IDF
+Accuracy: 0.7950
+Precision: 0.7565
+Recall: 0.8700
+F1 Score: 0.8093
+Confusion matrix [ [TN, FP], [FN, TP] ]: [[72, 28], [13, 87]]
+              precision    recall  f1-score   support
+
+    Negative       0.85      0.72      0.78       100
+    Positive       0.76      0.87      0.81       100
+
+    accuracy                           0.80       200
+   macro avg       0.80      0.79      0.79       200
+weighted avg       0.80      0.80      0.79       200
+

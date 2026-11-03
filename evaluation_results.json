@@ -1,0 +1,56 @@
+[
+  {
+    "Model": "BernoulliNB + Binary CountVectorizer",
+    "Accuracy": 0.805,
+    "Precision": 0.7606837606837606,
+    "Recall": 0.89,
+    "F1 Score": 0.8202764976958525,
+    "Confusion Matrix": [
+      [
+        72,
+        28
+      ],
+      [
+        11,
+        89
+      ]
+    ],
+    "Classification Report": "              precision    recall  f1-score   support\n\n    Negative       0.87      0.72      0.79       100\n    Positive       0.76      0.89      0.82       100\n\n    accuracy                           0.81       200\n   macro avg       0.81      0.80      0.80       200\nweighted avg       0.81      0.81      0.80       200\n"
+  },
+  {
+    "Model": "MultinomialNB + CountVectorizer",
+    "Accuracy": 0.8,
+    "Precision": 0.7678571428571429,
+    "Recall": 0.86,
+    "F1 Score": 0.8113207547169812,
+    "Confusion Matrix": [
+      [
+        74,
+        26
+      ],
+      [
+        14,
+        86
+      ]
+    ],
+    "Classification Report": "              precision    recall  f1-score   support\n\n    Negative       0.84      0.74      0.79       100\n    Positive       0.77      0.86      0.81       100\n\n    accuracy                           0.80       200\n   macro avg       0.80      0.80      0.80       200\nweighted avg       0.80      0.80      0.80       200\n"
+  },
+  {
+    "Model": "MultinomialNB + TF-IDF",
+    "Accuracy": 0.795,
+    "Precision": 0.7565217391304347,
+    "Recall": 0.87,
+    "F1 Score": 0.8093023255813954,
+    "Confusion Matrix": [
+      [
+        72,
+        28
+      ],
+      [
+        13,
+        87
+      ]
+    ],
+    "Classification Report": "              precision    recall  f1-score   support\n\n    Negative       0.85      0.72      0.78       100\n    Positive       0.76      0.87      0.81       100\n\n    accuracy                           0.80       200\n   macro avg       0.80      0.79      0.79       200\nweighted avg       0.80      0.80      0.79       200\n"
+  }
+]
